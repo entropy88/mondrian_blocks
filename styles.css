@@ -1,0 +1,49 @@
+body{
+    box-sizing: border-box;
+}
+
+section{    
+    margin: auto;
+    width: 70vw;
+    height: 70vh;
+    background-color: black;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    border:10px solid black;
+}
+
+div{
+    box-shadow:0px 0px 0px 2px black inset;
+    text-align: center;
+    /* box-shadow: 5px 5px 5px 5px; */
+}
+
+.startingSquare{
+    width: 10px;
+    height: 10px;
+    background-color: white;
+}
+  
+
+.toTheLeft{
+   align-self: flex-start;
+    
+}
+
+/* .toTheRight{
+    right: 0;
+  
+}
+
+.toTheTop{
+    top: 0;
+   
+    
+} */
+
+.toTheBottom{
+    position:absolute
+ 
+}
