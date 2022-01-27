@@ -1,23 +1,51 @@
 body{
     box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-section{    
+#container{    
     margin: auto;
     width: 80vw;
-    height: 80vh;
-    background-color: black;
+    height: 80vw;
+    /* background-color: black; */
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
     position: relative;
-    border:10px solid black;
+    /* border:10px solid black; */
 }
+
 
 div{
     box-shadow:0px 0px 0px 2px black inset;
     text-align: center;
     /* box-shadow: 5px 5px 5px 5px; */
+}
+
+#description{
+    margin-top:2vh;
+    display: flex;
+    flex-direction: column;
+}
+#description button{
+    width:10vw;
+    align-self: center;
+    border: none;
+   color: white;
+   border-radius: 4px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   color: black;
+   font-weight: bold;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    border: none;
 }
 
 .startingSquare{
